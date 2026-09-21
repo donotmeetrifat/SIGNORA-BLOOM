@@ -1,0 +1,14 @@
+# Robots.txt for SIGNORA BLOOM
+# Official Production Domain: https://signorabloom.com
+
+User-agent: *
+Allow: /
+Disallow: /rifat
+Disallow: /rifat/
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/auth/
+Disallow: /api/content
+Disallow: /api/upload
+
+Sitemap: https://signorabloom.com/sitemap.xml

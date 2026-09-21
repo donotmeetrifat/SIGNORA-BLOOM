@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-ivory: #F8F2EC;
+  --color-ivory-light: #FCFAF7;
+  --color-ivory-subtle: #F3ECE4;
+  --color-ivory-dark: #E8DFD5;
+  --color-rose: #D8A7A7;
+  --color-rose-light: #EEDADA;
+  --color-espresso: #332B2B;
+  --color-espresso-soft: #4A4040;
+  --color-espresso-muted: #736767;
+  --color-taupe: #B89B82;
+  --color-taupe-light: #D4C3B4;
+  --color-sage: #A9B09A;
+  --color-sage-light: #D7DCD0;
+}
+
+@layer base {
+  body {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    background-color: #F8F2EC;
+    color: #332B2B;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-editorial {
+    font-family: "Cormorant Garamond", Georgia, serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F2EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C3B4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B89B82;
+}
+
+/* Subtle Luxury Scroll Reveal Fade-in Animation */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-section {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .luxury-shimmer::after {
+    animation: none !important;
+  }
+}
+
+/* Luxury Skeleton Shimmer for Image-Heavy Sections */
+@keyframes luxuryShimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.luxury-shimmer {
+  position: relative;
+  overflow: hidden;
+  background-color: #F4ECE3;
+}
+
+.luxury-shimmer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    rgba(244, 236, 227, 0) 0%,
+    rgba(255, 255, 255, 0.45) 45%,
+    rgba(255, 255, 255, 0.75) 50%,
+    rgba(255, 255, 255, 0.45) 55%,
+    rgba(244, 236, 227, 0) 100%
+  );
+  animation: luxuryShimmer 2.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none;
+}
+
+@keyframes luxuryPulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-luxury-pulse {
+  animation: luxuryPulse 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+

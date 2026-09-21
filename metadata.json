@@ -1,0 +1,6 @@
+{
+  "name": "Signora Bloom",
+  "description": "Discover Signora Bloom, a curated collection of women's jewelry and fashion accessories designed to bring effortless elegance to everyday style.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

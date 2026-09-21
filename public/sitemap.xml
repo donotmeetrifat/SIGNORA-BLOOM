@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Homepage: Signora Bloom - A Curated Collection of Everyday Elegance -->
+  <url>
+    <loc>https://signorabloom.com/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Curated Collections Mosaic (Rings, Bangles & Bracelets, Earrings, Jewelry) -->
+  <url>
+    <loc>https://signorabloom.com/#collections</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Everyday Elegance Showcase (Featured accessories & jewelry pieces) -->
+  <url>
+    <loc>https://signorabloom.com/#everyday-elegance</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Editorial Stories & Brand Craftsmanship (The Signora Bloom Edit) -->
+  <url>
+    <loc>https://signorabloom.com/#about</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Curated Gift Packaging & Bespoke Experience -->
+  <url>
+    <loc>https://signorabloom.com/#surprise-loved-one</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

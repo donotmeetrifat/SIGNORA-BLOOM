@@ -1,0 +1,216 @@
+{
+  "brand": {
+    "name": "Signora Bloom Verified",
+    "tagline": "A Curated Collection of Everyday Elegance.",
+    "phone": "+1 (800) 843-2678",
+    "email": "concierge@signorabloom.com",
+    "conciergeHours": "Mon - Sat, 9:00 AM - 8:00 PM EST",
+    "address": "Signora Bloom Concierge",
+    "facebookUrl": "https://www.facebook.com/signorabloom/",
+    "instagramUrl": "https://instagram.com/tuhinajahantopa"
+  },
+  "hero": {
+    "slides": [
+      {
+        "id": 0,
+        "image": "/assets/images/signora_bloom_hero_banner.jpg?v=20260920c",
+        "alt": "Signora Bloom — A Curated Collection of Everyday Elegance",
+        "headline": "SIGNORA BLOOM",
+        "buttonText": "SHOP NOW"
+      },
+      {
+        "id": 1,
+        "image": "/assets/images/jewelry_hero_clean_2_1789492847429.jpg",
+        "alt": "Thoughtfully curated women's accessories for everyday style",
+        "headline": "EVERYDAY ELEGANCE, BEAUTIFULLY CURATED",
+        "buttonText": "EXPLORE JEWELRY"
+      },
+      {
+        "id": 2,
+        "image": "/assets/images/jewelry_hero_clean_3_1789492876099.jpg",
+        "alt": "Versatile fashion accessories designed to elevate any look",
+        "headline": "STYLE IT YOUR WAY",
+        "buttonText": "VIEW COLLECTION"
+      }
+    ]
+  },
+  "collections": [
+    {
+      "id": "fine-rings",
+      "title": "RINGS",
+      "subtitle": "Feminine statement pieces and delicate designs to complete your look.",
+      "category": "rings",
+      "image": "/assets/images/collection_rings.jpg?v=20260920",
+      "itemCount": "Curated Selection",
+      "span": "tall"
+    },
+    {
+      "id": "sculptural-bracelets",
+      "title": "BANGLES & BRACELETS",
+      "subtitle": "Beautifully detailed styles for stacking, layering and everyday wear.",
+      "category": "bracelets",
+      "image": "/assets/images/collection_bangles.jpg?v=20260920",
+      "itemCount": "Curated Selection",
+      "span": "square"
+    },
+    {
+      "id": "drop-hoop-earrings",
+      "title": "EARRINGS",
+      "subtitle": "Elegant finishing touches designed to elevate everyday outfits.",
+      "category": "earrings",
+      "image": "/assets/images/collection_earrings.jpg?v=20260920",
+      "itemCount": "Curated Selection",
+      "span": "square"
+    },
+    {
+      "id": "medallion-necklaces",
+      "title": "JEWELRY",
+      "subtitle": "Elegant pieces designed to complement everyday looks.",
+      "category": "jewelry",
+      "image": "/assets/images/collection_jewelry.jpg?v=20260920",
+      "itemCount": "Curated Selection",
+      "span": "wide"
+    },
+    {
+      "id": "shop-charms",
+      "title": "WOMEN'S ACCESSORIES",
+      "subtitle": "Curated accessories chosen to bring personality and polish to your style.",
+      "category": "accessories",
+      "image": "/assets/images/collection_accessories.jpg?v=20260920",
+      "itemCount": "Curated Selection",
+      "span": "tall"
+    }
+  ],
+  "editorial": {
+    "tabs": [
+      {
+        "id": "beauty-ingenuity",
+        "tabLabel": "THE SIGNORA BLOOM EDIT",
+        "headline": "The Signora Bloom Edit",
+        "description": "Discover thoughtfully selected accessories designed to make everyday styling feel a little more special. From elegant jewelry to expressive finishing touches, Signora Bloom brings together pieces made for modern, effortless elegance.",
+        "mainImage": "/assets/images/editorial_main.jpg?v=20260920",
+        "insetDetailImage": "/assets/images/editorial_inset.jpg?v=20260920",
+        "buttonLabel": "DISCOVER SIGNORA"
+      },
+      {
+        "id": "ear-stack-magic",
+        "tabLabel": "EVERYDAY ELEGANCE",
+        "headline": "Style It Your Way",
+        "description": "Style your look your way. Layer bracelets, stack bangles, add a statement ring or finish an outfit with a delicate accessory — Signora Bloom makes everyday styling beautifully effortless.",
+        "mainImage": "/assets/images/collection_accessories.jpg?v=20260920",
+        "insetDetailImage": "/assets/images/collection_earrings.jpg?v=20260920",
+        "buttonLabel": "EXPLORE STYLING"
+      },
+      {
+        "id": "wristwear-essentials",
+        "tabLabel": "CURATED DETAILS",
+        "headline": "Curated For Everyday Elegance",
+        "description": "At Signora Bloom, we curate women's accessories that add a refined finishing touch to everyday style. From intricate textures to graceful silhouettes, each piece is selected for beauty, versatility, and everyday wear.",
+        "mainImage": "/assets/images/collection_bangles.jpg?v=20260920",
+        "insetDetailImage": "/assets/images/editorial_inset.jpg?v=20260920",
+        "buttonLabel": "SHOP COLLECTION"
+      }
+    ]
+  },
+  "giftSection": {
+    "badge": "A CURATED COLLECTION OF EVERYDAY ELEGANCE",
+    "headline": "WHY SIGNORA BLOOM",
+    "subheadline": "Thoughtfully selected accessories designed to bring effortless elegance to your everyday style.",
+    "boxLabel": "SIGNORA BLOOM",
+    "boxTheme": "crimson",
+    "perks": [
+      {
+        "title": "Curated Selection",
+        "desc": "Thoughtfully selected accessories for modern everyday style."
+      },
+      {
+        "title": "Effortless Elegance",
+        "desc": "Pieces chosen to complement both everyday looks and special moments."
+      },
+      {
+        "title": "Detail-Focused",
+        "desc": "From texture to finish, every piece is selected for its visual character."
+      }
+    ],
+    "features": [
+      {
+        "number": "01",
+        "title": "CURATED WITH CARE",
+        "description": "A thoughtfully selected collection of women's accessories."
+      },
+      {
+        "number": "02",
+        "title": "EFFORTLESS STYLE",
+        "description": "Pieces designed to complement everyday fashion."
+      },
+      {
+        "number": "03",
+        "title": "BEAUTIFUL DETAILS",
+        "description": "Intricate textures, elegant finishes and feminine designs."
+      },
+      {
+        "number": "04",
+        "title": "VERSATILE ACCESSORIES",
+        "description": "Easy-to-style pieces for different looks and occasions."
+      }
+    ]
+  },
+  "everydayElegance": {
+    "title": "Everyday Elegance"
+  },
+  "products": [
+    {
+      "id": "striped-bangles",
+      "refCode": "SB-BG-01",
+      "name": "Triple Horizon Striped Bangles",
+      "category": "bracelets",
+      "categoryLabel": "Bracelets",
+      "price": "$58",
+      "tagline": "Stacked tri-tone finish with precision diagonal texture",
+      "description": "An intricate set of polished gold, rose gold, and silver-tone bangles featuring fine diagonal textured grooves for radiant light capture.",
+      "image": "/assets/images/everyday_striped_bangles.jpg?v=20260920",
+      "badge": "Bestseller"
+    },
+    {
+      "id": "honeycomb-lattice-cuff",
+      "refCode": "SB-BG-02",
+      "name": "Honeycomb Lattice Cut-Out Cuff",
+      "category": "bracelets",
+      "categoryLabel": "Bracelets",
+      "price": "$54",
+      "tagline": "Openwork geometric lattice design on polished gold",
+      "description": "A lightweight open cuff featuring a modern honeycomb lattice cut-out pattern designed for comfortable everyday statement wear.",
+      "image": "/assets/images/everyday_lattice_cuff.jpg?v=20260920",
+      "badge": "Featured"
+    },
+    {
+      "id": "interlocking-harmony-bangles",
+      "refCode": "SB-BG-03",
+      "name": "Interlocking Harmony Circle Bangles",
+      "category": "bracelets",
+      "categoryLabel": "Bracelets",
+      "price": "$52",
+      "tagline": "Four textured gold bangles featuring interlocking ring accents",
+      "description": "A stacked set of four gleaming gold-tone bangles adorned with delicate interlocking circles and etched detailing.",
+      "image": "/assets/images/everyday_interlocking_bangles.jpg?v=20260920",
+      "badge": "Popular"
+    },
+    {
+      "id": "aura-leaf-twist-bracelet",
+      "refCode": "SB-BG-04",
+      "name": "Aura Tri-Color Leaf Twist Bracelet",
+      "category": "bracelets",
+      "categoryLabel": "Bracelets",
+      "price": "$48",
+      "tagline": "Feminine leaf motif twists with tri-tone accents",
+      "description": "Delicate sculpted leaves wrapped gracefully along a twisted dual-tone cable bracelet with refined hinge closure.",
+      "image": "/assets/images/everyday_leaf_twist.jpg?v=20260920",
+      "badge": "New Arrival"
+    }
+  ],
+  "footer": {
+    "newsletterTitle": "STAY CONNECTED WITH SIGNORA BLOOM",
+    "newsletterDesc": "Discover new arrivals, curated collections and everyday styling inspiration.",
+    "copyright": "© 2026 Signora Bloom. All rights reserved."
+  }
+}
